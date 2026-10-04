@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Putri Collection</title>
+  <desc id="desc">Logo Putri Collection by Putri Jilbab berwarna putih pada latar hijau sage gelap.</desc>
+  <rect width="500" height="500" fill="#45574f"/>
+  <g fill="#fff" text-anchor="middle">
+    <text x="236" y="272" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="134" font-weight="400" letter-spacing="-17">PC</text>
+    <text x="250" y="319" font-family="Montserrat, Arial, sans-serif" font-size="31" font-weight="500" letter-spacing="6">PUTRI COLLECTION</text>
+    <text x="250" y="345" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3.5">BY: PUTRI JILBAB</text>
+  </g>
+</svg>
