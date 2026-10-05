@@ -5,7 +5,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "composer install --no-dev --optimize-autoloader && vite build"
     },
     "dependencies": {
         "@laravel/passkeys": "^0.2.0",

@@ -1,0 +1,5 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "buildCommand": "composer install --no-dev --optimize-autoloader && npm run build",
+    "outputDirectory": "public"
+}
