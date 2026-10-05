@@ -6,7 +6,10 @@
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+/vendor/*
+!/vendor/livewire/
+/vendor/livewire/*
+!/vendor/livewire/flux/
 .env
 .env.backup
 .env.production
