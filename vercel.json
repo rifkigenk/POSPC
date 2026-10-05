@@ -2,6 +2,7 @@
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "version": 2,
     "framework": null,
+    "outputDirectory": "public",
     "buildCommand": "npm run build",
     "functions": {
         "api/index.php": {
@@ -11,15 +12,15 @@
     "routes": [
         {
             "src": "/build/(.*)",
-            "dest": "/public/build/$1"
+            "dest": "/build/$1"
         },
         {
             "src": "/images/(.*)",
-            "dest": "/public/images/$1"
+            "dest": "/images/$1"
         },
         {
             "src": "/(favicon\\.(?:ico|svg)|apple-touch-icon\\.png|robots\\.txt)",
-            "dest": "/public/$1"
+            "dest": "/$1"
         },
         {
             "src": "/(.*)",
